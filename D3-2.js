@@ -90,5 +90,8 @@ console.log("Array after increasing by 1: " , ex7Array, "\n");
 */
 
 let ex8Array = ["strive", "is", "great"];
-let ex8ArrayReplace = [ex8Array[0].length, ex8Array[1].length, ex8Array[2].length];
+let ex8ArrayReplace= [];
+for(let i=0; i<ex8Array.length; i++){
+    ex8ArrayReplace[i] = ex8Array[i].length;
+}
 console.log(ex8Array, "\n", ex8ArrayReplace);
