@@ -71,10 +71,10 @@ let shipping = 10;
 let totalAmountSpent = 90;
 
 if(totalAmountSpent > 50){
-    totalShoppingCart = totalAmountSpent + shipping;
+    totalShoppingCart = totalAmountSpent ;
     console.log("Your total is: "+totalShoppingCart);
 }else{
-    totalShoppingCart = totalAmountSpent;
+    totalShoppingCart = totalAmountSpent + shipping;
     console.log("Your total is: "+totalShoppingCart+"\n");
 }
 
