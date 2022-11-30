@@ -59,9 +59,9 @@ console.log(even, "\n");
 
 let ex5Array = [22, 19, 31, 8, 32, 12];
 
-let oddArray = ex5Array.filter(n => n % 2 === 0)
+let oddArray = ex5Array.filter(n => n % 2 !== 0)
 
-console.log(oddArray, "\n");
+console.log("Odds: ", oddArray, "\n");
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
