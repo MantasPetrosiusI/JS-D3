@@ -148,9 +148,9 @@ console.log("Type of car variable is: "+typeof car, "\n", "Type of licensePlate:
 */
 
 let carsForSale = [];
-carsForSale[0] = [{brand: "BMW", model: "BMW i4", licensePlate: "142-D-12641"}];
-carsForSale[1] = [{brand: "Nissan", model: "Maxima", licensePlate: "211-D-127"}];
-carsForSale[2] = [{brand: "Lexus", model: "RC", licensePlate: "212-WH-3214"}];
+carsForSale.push(car2);
+carsForSale.push(car3);
+carsForSale.push(car4);
 let totalCars = carsForSale.length;
 console.log("Number of cars for sale: "+totalCars, "\n");
 
@@ -158,6 +158,6 @@ console.log("Number of cars for sale: "+totalCars, "\n");
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-for(let i = 0; i<=totalCars; i++){
+for(let i = 0; i<=carsForSale.length-1; i++){
     console.log(carsForSale[i], "\n");
 }
